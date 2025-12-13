@@ -1,0 +1,95 @@
+{
+  "tokens": [
+    {
+      "address": "0x5e501c482952c1f2d58a4294f9a97759968c5125",
+      "symbol": "sWETH",
+      "name": "Synthetic sWETH",
+      "decimals": 18,
+      "created_at": 1765293405
+    },
+    {
+      "address": "0xa56a2c5678f8e10f61c6fbafcb0887571b9b432b",
+      "symbol": "sUSDC",
+      "name": "Synthetic sUSDC",
+      "decimals": 6,
+      "created_at": 1765293405
+    },
+    {
+      "address": "0x72dfc771e515423e5b0cd2acf703d0f7eb30bdea",
+      "symbol": "sUSDT",
+      "name": "Synthetic sUSDT",
+      "decimals": 6,
+      "created_at": 1765293406
+    }
+  ],
+  "pools": [
+    {
+      "address": "0x06991574c73f1545503f9a32fae9f8325ef8db87",
+      "token0": "0x5e501c482952c1f2d58a4294f9a97759968c5125",
+      "token1": "0xa56a2c5678f8e10f61c6fbafcb0887571b9b432b",
+      "fee": 3000,
+      "tick_spacing": 60,
+      "sqrt_price_x96": "4419344564146426810199036567219",
+      "tick": 80432,
+      "liquidity": "0",
+      "fee_growth_global0_x128": "0",
+      "fee_growth_global1_x128": "12897772694355531400737643539791414",
+      "last_updated": 1765508882,
+      "created_at": 1765293405
+    },
+    {
+      "address": "0xfdb6b93f2bb8e8e79bad3986b0ac22b6891ba039",
+      "token0": "0x5e501c482952c1f2d58a4294f9a97759968c5125",
+      "token1": "0x72dfc771e515423e5b0cd2acf703d0f7eb30bdea",
+      "fee": 3000,
+      "tick_spacing": 60,
+      "sqrt_price_x96": "4416925649541975533398716841984",
+      "tick": 80421,
+      "liquidity": "1071114",
+      "fee_growth_global0_x128": "0",
+      "fee_growth_global1_x128": "0",
+      "last_updated": 1765508882,
+      "created_at": 1765293406
+    },
+    {
+      "address": "0x7ac514176abba4c3d8f991224b5a3ef56cc8e0e1",
+      "token0": "0x72dfc771e515423e5b0cd2acf703d0f7eb30bdea",
+      "token1": "0xa56a2c5678f8e10f61c6fbafcb0887571b9b432b",
+      "fee": 500,
+      "tick_spacing": 10,
+      "sqrt_price_x96": "79232111862633003249567762444",
+      "tick": 0,
+      "liquidity": "200510416",
+      "fee_growth_global0_x128": "0",
+      "fee_growth_global1_x128": "8485403743836890335496950129308",
+      "last_updated": 1765508882,
+      "created_at": 1765293407
+    },
+    {
+      "address": "0x1b166616caa3ada75d3d1d04483b0021031238e0",
+      "token0": "0x5e501c482952c1f2d58a4294f9a97759968c5125",
+      "token1": "0xa56a2c5678f8e10f61c6fbafcb0887571b9b432b",
+      "fee": 500,
+      "tick_spacing": 10,
+      "sqrt_price_x96": "4599329608568308943028224",
+      "tick": -195094,
+      "liquidity": "997688474623",
+      "fee_growth_global0_x128": "0",
+      "fee_growth_global1_x128": "0",
+      "last_updated": 1765508883,
+      "created_at": 1765303201
+    }
+  ],
+  "price_snapshots": [],
+  "swaps": [],
+  "candles": [],
+  "indexer_state": [
+    {
+      "key": "last_indexed_block",
+      "value": "57734100",
+      "updated_at": 1765504802
+    }
+  ],
+  "_snapshot_id_counter": 0,
+  "_swap_id_counter": 0
+}
